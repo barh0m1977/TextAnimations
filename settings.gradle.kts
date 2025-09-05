@@ -21,5 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "TextAnimations"
-include(":app")
-include(":app:TextAnimations")
+include(":TextAnimations")

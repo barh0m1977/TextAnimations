@@ -37,8 +37,9 @@ android {
         compose = true
     }
 
+    // ✅ Required in Kotlin 2.0+ to enable Compose
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.6.0"
+        kotlinCompilerExtensionVersion = "1.6.0" // match latest compatible version
     }
 }
 
