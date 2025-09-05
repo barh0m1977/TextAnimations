@@ -53,6 +53,7 @@ dependencies {
     implementation(platform("androidx.compose:compose-bom:2024.06.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3")
+
 }
 
 afterEvaluate {
@@ -61,7 +62,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.github.barh0m1977"
                 artifactId = "TextAnimations"
-                version = "1.0.0"
+                version = "1.1.0"
                 from(components["release"])
             }
         }
